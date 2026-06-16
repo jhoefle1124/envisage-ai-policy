@@ -1,9 +1,9 @@
 /* ENVISAGE AI Policy — language switcher */
 (function(){
   var NAV = {
-    en: ["Home","Claude & Cowork","Token Efficiency","Data Security","Verification","AI Toolkit"],
-    th: ["หน้าหลัก","Claude และ Cowork","ประหยัดโทเคน","ความปลอดภัยข้อมูล","การตรวจสอบยืนยัน","ชุดเครื่องมือ AI"],
-    my: ["ပင်မ","Claude နှင့် Cowork","တိုကင်ချွေတာရေး","ဒေတာလုံခြုံရေး","အတည်ပြုစစ်ဆေးရေး","AI ကိရိယာစုံ"]
+    en: ["Home","Claude & Cowork","Token Efficiency","Data Security","Verification","AI Toolkit","AI Directory","Case Study"],
+    th: ["หน้าหลัก","Claude และ Cowork","ประหยัดโทเคน","ความปลอดภัยข้อมูล","การตรวจสอบยืนยัน","ชุดเครื่องมือ AI","ไดเร็กทอรี AI","กรณีศึกษา"],
+    my: ["ပင်မ","Claude နှင့် Cowork","တိုကင်ချွေတာရေး","ဒေတာလုံခြုံရေး","အတည်ပြုစစ်ဆေးရေး","AI ကိရိယာစုံ","AI လမ်းညွှန်","ဖြစ်ရပ်လေ့လာမှု"]
   };
   function apply(lang){
     if(!NAV[lang]) lang = "en";
